@@ -15,7 +15,7 @@ In this project the 0 label refers to the HAM mails and 1 label refers to the SP
 
 The mathematical function used for this type of classification is SIGMOID function. This output values of this function ranges from 0 to 1, thus providing us the output values in between this range; [0,1]
 
-To classify the things that whether it falls in class 0 or 1, DECISION BOUNDARY provides us a basic idea of how the classificated data looks like with respect to this boundary. This is used to divide the outputs into the two classes with respect to this decision boundary.
+To classify the things that whether it falls in class 0 or 1, DECISION BOUNDARY provides us a basic idea of how the classified data looks like with respect to this boundary. This is used to divide the outputs into the two classes with respect to this decision boundary.
 
 The model used for this binary classification task is LOGISTIC REGRESSION. This uses sigmoid function and updates the values of the paramaters using the GRADIENT DESCENT ALGORITHM after each iteration. The updated parameters are finalized with a value which minimizes the COST and LOSS function.
 
